@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">IEAG-CM</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="intro">
+        <![CDATA[
+        <div>
+           <div>
+              <div>
+                 <p>Se denomina cocinero profesional a la persona que cocina por oficio y profesi\u00f3n.
+                 Las funciones en la cocina est\u00e1n categorizadas, en funci\u00f3n de los conocimientos y
+                 las especialidades de cada uno de los tipos de cocinero.
+                 </p>
+                 <p>El chef debe ser un experto en cocina y conocer con propiedad los productos,
+                 la administraci\u00f3n, la contabilidad, el derecho, la nutrici\u00f3n, la enolog\u00eda, los costeos,
+                 la qu\u00edmica, la historia y la geograf\u00eda (estos \u00faltimos dos para poder conocer mejor los
+                 productos y saber c\u00f3mo utilizarlos adecuadamente), entre otros muchos elementos.
+                 Adem\u00e1s, debe ser capaz de liderar a su brigada (t\u00e9rmino acu\u00f1ado por el c\u00e9lebre cocinero
+                 franc\u00e9s Auguste Escoffier, que hace referencia a un equipo de personas bajo sus \u00f3rdenes)
+                 y mantener siempre un control e higiene excelsos, para brindar un servicio de calidad
+                 al comensal.</p>
+                 <p>En un restaurante u hotel, el chef es el designado a cargo de la cocina.
+                 Tiene a su cargo a una serie de personas que se desarrollan en diversas \u00e1reas
+                 dentro de la cocina en la preparaci\u00f3n de platillos por separado; al unificarlos,
+                 el resultado final es lo que se le entregar\u00e1 al comensal.</p>
+              </div>
+           </div>
+        </div>
+        ]]>
+</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nombre_funcionario">Nombre Funcionario</string>
+    <string name="punto">Punto</string>
+    <string name="seleccioneSCR">Seleccione SCR:</string>
+    <string name="descripcion_punto">Descripci\u00F3n Punto</string>
+</resources>
