@@ -1,8 +1,32 @@
 <resources>
     <string name="app_name">IEAG-CM</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_carrito">Añadir al carrito</string>
+
+    <string name="item_inicio">Inicio</string>
+    <string name="item_cuenta">Mi Cuenta</string>
+    <string name="item_categorias">Categorías</string>
+    <string name="item_configuracion">Configuración</string>
+
+    <string name="titulo_comidas_populares">Lo más pedido</string>
+
+    <string name="titulo_tab_platillos">PLATILLOS</string>
+    <string name="titulo_tab_bebidas">BEBIDAS</string>
+    <string name="titulo_tab_postres">POSTRES</string>
+
+    <string name="titulo_tab_perfil">PERFIL</string>
+    <string name="titulo_tab_direcciones">DIRECCIONES</string>
+    <string name="titulo_tab_tarjetas">TARJETAS</string>
+
+    <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
+
+    <string name="aqui_logo">Aqui el logo</string>
+
+    <string name="texto_cambiar_contrasena">Cambia tu contraseña</string>
+    <string name="etiqueta_contrasena">Contraseña</string>
+    <string name="etiqueta_info_usuario">Información del usuario</string>
 
     <string name="intro">
         <![CDATA[
@@ -17,7 +41,8 @@
                  la administraci\u00f3n, la contabilidad, el derecho, la nutrici\u00f3n, la enolog\u00eda, los costeos,
                  la qu\u00edmica, la historia y la geograf\u00eda (estos \u00faltimos dos para poder conocer mejor los
                  productos y saber c\u00f3mo utilizarlos adecuadamente), entre otros muchos elementos.
-                 Adem\u00e1s, debe ser capaz de liderar a su brigada (t\u00e9rmino acu\u00f1ado por el c\u00e9lebre cocinero
+                 Adem\u00e1s, debe ser capaz de liderar a su brigada (t\u00e9rmino acu\u00f1
+                 ado por el c\u00e9lebre cocinero
                  franc\u00e9s Auguste Escoffier, que hace referencia a un equipo de personas bajo sus \u00f3rdenes)
                  y mantener siempre un control e higiene excelsos, para brindar un servicio de calidad
                  al comensal.</p>
@@ -30,5 +55,8 @@
         </div>
         ]]>
 </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
