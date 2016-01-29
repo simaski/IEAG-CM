@@ -1,6 +1,5 @@
 package ieagcm.simaski.desarrollo.com.ieag_cm.ui;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -45,8 +44,8 @@ public class ActividadPrincipal extends AppCompatActivity {
             case R.id.item_inicio:
                 fragmentoGenerico = new FragmentInicio();
                 break;
-            case R.id.item_cuenta:
-                //fragmentoGenerico = new FragmentoCuenta();
+            case R.id.item_asignaturas:
+                fragmentoGenerico = new FragmentCuenta();
                 break;
             case R.id.item_categorias:
                 //fragmentoGenerico = new FragmentoCategorias();

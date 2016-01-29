@@ -8,9 +8,9 @@
             android:icon="@drawable/inicio"
             android:title="@string/item_inicio" />
         <item
-            android:id="@+id/item_cuenta"
+            android:id="@+id/item_asignaturas"
             android:icon="@drawable/cuenta"
-            android:title="@string/item_cuenta" />
+            android:title="@string/item_asignaturas" />
         <item
             android:id="@+id/item_categorias"
             android:icon="@drawable/categorias"

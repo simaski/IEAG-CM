@@ -7,39 +7,40 @@ import ieagcm.simaski.desarrollo.com.ieag_cm.R;
 
 /**
  * Created by sancasimiro on 28/01/16.*/
- public class Comida {
- private float precio;
- private String nombre;
- private int idDrawable;
+public class Comida {
+    private String horas;
+    private String nombre;
+    private int idDrawable;
 
- public Comida(float precio, String nombre, int idDrawable) {
- this.precio = precio;
- this.nombre = nombre;
- this.idDrawable = idDrawable;
- }
+    public Comida(String nombre, String horas, int idDrawable) {
+        this.nombre = nombre;
+        this.horas = horas;
+        this.idDrawable = idDrawable;
+    }
 
- public static final List<Comida> COMIDAS_POPULARES = new ArrayList<Comida>();
- public static final List<Comida> BEBIDAS = new ArrayList<>();
- public static final List<Comida> POSTRES = new ArrayList<>();
- public static final List<Comida> PLATILLOS = new ArrayList<>();
+    public static final List<Comida> MATERIAS = new ArrayList<Comida>();
+    public static final List<Comida> BEBIDAS = new ArrayList<>();
+    public static final List<Comida> POSTRES = new ArrayList<>();
+    public static final List<Comida> PLATILLOS = new ArrayList<>();
 
- static {
- COMIDAS_POPULARES.add(new Comida(5, "Camarones Tismados", R.drawable.camarones));
- COMIDAS_POPULARES.add(new Comida(3.2f, "Rosca Herbárea", R.drawable.rosca));
- COMIDAS_POPULARES.add(new Comida(12f, "Sushi Extremo", R.drawable.sushi));
- COMIDAS_POPULARES.add(new Comida(9, "Sandwich Deli", R.drawable.sandwich));
- COMIDAS_POPULARES.add(new Comida(34f, "Lomo De Cerdo Austral", R.drawable.lomo_cerdo));
- }
+    static {
+        MATERIAS.add(new Comida("Contabilidad Basica", "Desde: 08:00am a 09:20am", R.drawable.camarones));
+        MATERIAS.add(new Comida("Historia", "Desde: 09:20am a 10:40am", R.drawable.rosca));
+        MATERIAS.add(new Comida("Cocina Basica", "Desde: 10:50am a 01:30pm", R.drawable.sushi));
+        MATERIAS.add(new Comida("Nutricion", "Desde: 01:40pm a 02:20pm", R.drawable.sandwich));
+        MATERIAS.add(new Comida("Higiene", "Desde: 02:20am a 03:00pm", R.drawable.lomo_cerdo));
+        MATERIAS.add(new Comida("Ingles", "Desde: 03:00pm a 03:40pm", R.drawable.cafe));
+    }
 
- public float getPrecio() {
- return precio;
- }
+    public String getHoras() {
+        return horas;
+    }
 
- public String getNombre() {
- return nombre;
- }
+    public String getNombre() {
+        return nombre;
+    }
 
- public int getIdDrawable() {
- return idDrawable;
- }
- }
+    public int getIdDrawable() {
+        return idDrawable;
+    }
+}

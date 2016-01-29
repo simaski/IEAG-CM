@@ -6,27 +6,32 @@
     <string name="action_carrito">Añadir al carrito</string>
 
     <string name="item_inicio">Inicio</string>
-    <string name="item_cuenta">Mi Cuenta</string>
+    <string name="item_asignaturas">Asignaturas</string>
     <string name="item_categorias">Categorías</string>
     <string name="item_configuracion">Configuración</string>
+    <string name="item_creditos">Cr\u00e9ditos</string>
 
-    <string name="titulo_comidas_populares">Que es un Chef</string>
+    <string name="titulo_horario">Horario</string>
 
     <string name="titulo_tab_platillos">PLATILLOS</string>
     <string name="titulo_tab_bebidas">BEBIDAS</string>
     <string name="titulo_tab_postres">POSTRES</string>
 
-    <string name="titulo_tab_perfil">PERFIL</string>
-    <string name="titulo_tab_direcciones">DIRECCIONES</string>
-    <string name="titulo_tab_tarjetas">TARJETAS</string>
+    <string name="titulo_tab_contabilidad">CONTABILIDAD</string>
+    <string name="titulo_tab_historia">HISTORIA</string>
+    <string name="titulo_tab_cocina">COCINA</string>
+    <string name="titulo_tab_nutricion">NUTRICION</string>
+    <string name="titulo_tab_higiene">HIGIENE</string>
+    <string name="titulo_tab_ingles">INGLES</string>
 
     <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
 
     <string name="aqui_logo">Aqui el logo</string>
 
-    <string name="texto_cambiar_contrasena">Cambia tu contraseña</string>
+    <string name="texto_semana1">Semana 1</string>
+    <string name="texto_semana2">Semana 2</string>
     <string name="etiqueta_contrasena">Contraseña</string>
-    <string name="etiqueta_info_usuario">Información del usuario</string>
+    <string name="etiqueta_semanas">Semanas</string>
 
     <string name="intro">
         <![CDATA[

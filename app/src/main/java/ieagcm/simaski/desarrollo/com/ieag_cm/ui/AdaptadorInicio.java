@@ -21,13 +21,13 @@ public class AdaptadorInicio extends RecyclerView.Adapter<AdaptadorInicio.ViewHo
     public static class ViewHolder extends RecyclerView.ViewHolder {
         // Campos respectivos de un item
         public TextView nombre;
-        public TextView precio;
+        public TextView horas;
         public ImageView imagen;
 
         public ViewHolder(View v) {
             super(v);
+            horas = (TextView) v.findViewById(R.id.precio_comida);
             nombre = (TextView) v.findViewById(R.id.nombre_comida);
-            //precio = (TextView) v.findViewById(R.id.precio_comida);
             imagen = (ImageView) v.findViewById(R.id.miniatura_comida);
         }
     }
@@ -37,7 +37,7 @@ public class AdaptadorInicio extends RecyclerView.Adapter<AdaptadorInicio.ViewHo
 
     @Override
     public int getItemCount() {
-        return Comida.COMIDAS_POPULARES.size();
+        return Comida.MATERIAS.size();
     }
 
     @Override
@@ -49,14 +49,14 @@ public class AdaptadorInicio extends RecyclerView.Adapter<AdaptadorInicio.ViewHo
 
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
-        Comida item = Comida.COMIDAS_POPULARES.get(i);
+        Comida item = Comida.MATERIAS.get(i);
 
         Glide.with(viewHolder.itemView.getContext())
                 .load(item.getIdDrawable())
                 .centerCrop()
                 .into(viewHolder.imagen);
+        viewHolder.horas.setText(item.getHoras());
         viewHolder.nombre.setText(item.getNombre());
-        //viewHolder.precio.setText("$" + item.getPrecio());
 
     }
 
