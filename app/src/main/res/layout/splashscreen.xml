@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/tv_sg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SG"
+            android:textSize="100dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp" />
+
+        <TextView
+            android:id="@+id/tv_sgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_simaski"
+            android:textSize="50dp"
+            android:layout_below="@+id/tv_sg"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerHorizontal="true"/>
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp" />
+
+        <TextView
+            android:id="@+id/tv_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cargando..."
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignTop="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp" />
+    </RelativeLayout>
+</LinearLayout>
