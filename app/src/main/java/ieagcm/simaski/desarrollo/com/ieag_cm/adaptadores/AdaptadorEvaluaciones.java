@@ -123,3 +123,20 @@ public class AdaptadorEvaluaciones extends RecyclerView.Adapter<AdaptadorEvaluac
 
 
 }
+
+/*PROGRAMACIÓN PERÍODO I-2016/ CONTABILIDAD BÁSICA
+
+        Semana	Fecha	Trimestre I
+        Semana 1	16-ene	Introducción / bienvenida/ Inicio Tema 1. Teoría de Contabilidad
+        Semana 2	23-ene	Tema 1. Cont. Teoría de Contabilidad, PCGA
+        Semana 3	30-ene	Tema 1. Cont. Teoría de Contabilidad, PCGA
+        Semana 4	06-feb	1er parcial escrito, individual 15% 
+        Semana 5	13-feb	Tema 2. Teoría de cuentas
+        Semana 6	20-feb	Tema 2. Practica de cuentas
+        Semana 7	27-feb	2da evaluación,: juego didáctico/debate grupal 20%
+        Semana 8	05-mar	Teoría asientos contables de libro diario
+        Semana 9	12-mar	Tema 3. Practica asientos contables de libro diario
+        Semana 10	19-mar	3er parcial Ejercicio práctico en pareja 15%  /  Trabajo Final por email 15%
+        Semana 11	02-abr	Caja chica semanal y Entrega de Libro Diario 20%   
+        Semana 12	09-abr	EXÁMENES FINALES DE COCINA
+        Trimestre	Intervenciones 5% y Asistencia 10%*/
