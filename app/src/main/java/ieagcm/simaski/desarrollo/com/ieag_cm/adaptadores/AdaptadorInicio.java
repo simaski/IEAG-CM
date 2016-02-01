@@ -1,4 +1,4 @@
-package ieagcm.simaski.desarrollo.com.ieag_cm.ui;
+package ieagcm.simaski.desarrollo.com.ieag_cm.adaptadores;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

@@ -1,4 +1,4 @@
-package ieagcm.simaski.desarrollo.com.ieag_cm.ui;
+package ieagcm.simaski.desarrollo.com.ieag_cm.actividades;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -13,6 +13,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import ieagcm.simaski.desarrollo.com.ieag_cm.R;
+import ieagcm.simaski.desarrollo.com.ieag_cm.ui.FragmentCuenta;
+import ieagcm.simaski.desarrollo.com.ieag_cm.ui.FragmentInicio;
 
 public class ActividadPrincipal extends AppCompatActivity {
 

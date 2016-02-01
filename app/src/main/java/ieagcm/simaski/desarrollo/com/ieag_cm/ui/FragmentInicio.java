@@ -1,7 +1,5 @@
 package ieagcm.simaski.desarrollo.com.ieag_cm.ui;
 
-import android.app.Activity;
-import android.net.Uri;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import ieagcm.simaski.desarrollo.com.ieag_cm.R;
+import ieagcm.simaski.desarrollo.com.ieag_cm.adaptadores.AdaptadorInicio;
 
 /**
  * Fragmento para la sección de "Inicio"

@@ -18,10 +18,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.ActividadPrincipal"
+            android:name=".actividades.ActividadPrincipal"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.ConNavigationDrawer">
+        </activity>
+        <activity
+            android:name=".actividades.ActividadEvalContabilidad"
+            android:label="@string/titulo_actividad_evalcontabilidad"
+            android:parentActivityName=".actividades.ActividadPrincipal" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".actividades.ActividadPrincipal" />
         </activity>
     </application>
 

@@ -13,7 +13,7 @@ import android.view.Display;
 import android.view.WindowManager;
 
 import ieagcm.simaski.desarrollo.com.ieag_cm.R;
-import ieagcm.simaski.desarrollo.com.ieag_cm.ui.ActividadPrincipal;
+import ieagcm.simaski.desarrollo.com.ieag_cm.actividades.ActividadPrincipal;
 
 public class SplashScreen extends Activity {
     private final int SPLASH_TIME = 3000;
