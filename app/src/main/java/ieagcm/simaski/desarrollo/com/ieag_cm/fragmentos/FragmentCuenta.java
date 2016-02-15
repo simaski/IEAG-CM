@@ -1,4 +1,4 @@
-package ieagcm.simaski.desarrollo.com.ieag_cm.ui;
+package ieagcm.simaski.desarrollo.com.ieag_cm.fragmentos;
 
 import android.graphics.Color;
 import android.os.Bundle;

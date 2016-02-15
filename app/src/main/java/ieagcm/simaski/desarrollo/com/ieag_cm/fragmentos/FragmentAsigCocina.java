@@ -1,4 +1,4 @@
-package ieagcm.simaski.desarrollo.com.ieag_cm.ui;
+package ieagcm.simaski.desarrollo.com.ieag_cm.fragmentos;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,9 +11,9 @@ import ieagcm.simaski.desarrollo.com.ieag_cm.R;
 /**
  * Created by sancasimiro on 29/01/16.
  */
-public class FragmentAsigNutricion extends Fragment {
+public class FragmentAsigCocina extends Fragment {
 
-    public FragmentAsigNutricion() {
+    public FragmentAsigCocina() {
     }
 
     @Override

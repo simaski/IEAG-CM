@@ -1,4 +1,4 @@
-package ieagcm.simaski.desarrollo.com.ieag_cm.ui;
+package ieagcm.simaski.desarrollo.com.ieag_cm.fragmentos;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

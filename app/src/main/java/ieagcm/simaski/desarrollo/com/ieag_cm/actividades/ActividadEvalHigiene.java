@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import ieagcm.simaski.desarrollo.com.ieag_cm.R;
-import ieagcm.simaski.desarrollo.com.ieag_cm.adaptadores.AdaptadorEvaluaciones;
+import ieagcm.simaski.desarrollo.com.ieag_cm.adaptadores.AdaptadorEvalContabilidad;
 import ieagcm.simaski.desarrollo.com.ieag_cm.ui.DecoracionLineaDivisoria;
 
 /**
@@ -66,7 +66,7 @@ public class ActividadEvalHigiene extends AppCompatActivity {
             linearLayout = new LinearLayoutManager(getActivity());
             reciclador.setLayoutManager(linearLayout);
 
-            AdaptadorEvaluaciones adaptador = new AdaptadorEvaluaciones();
+            AdaptadorEvalContabilidad adaptador = new AdaptadorEvalContabilidad();
             reciclador.setAdapter(adaptador);
             reciclador.addItemDecoration(new DecoracionLineaDivisoria(getActivity()));
 

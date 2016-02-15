@@ -1,8 +1,6 @@
 package ieagcm.simaski.desarrollo.com.ieag_cm.actividades;
 
-import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.preference.PreferenceFragment;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -14,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import ieagcm.simaski.desarrollo.com.ieag_cm.R;
-import ieagcm.simaski.desarrollo.com.ieag_cm.adaptadores.AdaptadorEvaluaciones;
+import ieagcm.simaski.desarrollo.com.ieag_cm.adaptadores.AdaptadorEvalContabilidad;
 import ieagcm.simaski.desarrollo.com.ieag_cm.ui.DecoracionLineaDivisoria;
 
 /**
@@ -29,10 +27,6 @@ public class ActividadEvalContabilidad extends AppCompatActivity {
         android.support.v4.app.FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.contenedor_evaluaciones, new FragmentoConfiguracion());
         ft.commit();
-
-        /*FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.add(R.id.contenedor_evaluaciones, new FragmentoConfiguracion());
-        ft.commit();*/
 
         agregarToolbar();
     }
@@ -68,7 +62,7 @@ public class ActividadEvalContabilidad extends AppCompatActivity {
             linearLayout = new LinearLayoutManager(getActivity());
             reciclador.setLayoutManager(linearLayout);
 
-            AdaptadorEvaluaciones adaptador = new AdaptadorEvaluaciones();
+            AdaptadorEvalContabilidad adaptador = new AdaptadorEvalContabilidad();
             reciclador.setAdapter(adaptador);
             reciclador.addItemDecoration(new DecoracionLineaDivisoria(getActivity()));
 

@@ -23,6 +23,8 @@
     <string name="titulo_tab_nutricion">NUTRICION</string>
     <string name="titulo_tab_higiene">HIGIENE</string>
     <string name="titulo_tab_ingles">INGLES</string>
+    <string name="titulo_tab_Kcal">Kcal</string>
+    <string name="titulo_tab_IMC">IMC</string>
 
     <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
 
@@ -30,10 +32,10 @@
 
     <string name="texto_semana1">Semana 1</string>
     <string name="texto_semana2">Semana 2</string>
-    <string name="texto_evaluaciones">Evaluaciones</string>
+    <string name="texto_evaluaciones">Calculos</string>
     <string name="etiqueta_contrasena">Contraseña</string>
     <string name="etiqueta_semanas">Semanas</string>
-    <string name="etiqueta_evaluaciones">Evaluaciones</string>
+    <string name="etiqueta_calculos">Calculos</string>
     <string name="etiqueta_simaski">SimaskiGroup\u2122</string>
 
     <string name="titulo_actividad_evalcontabilidad">Evaluaciones</string>
