@@ -68,6 +68,31 @@
         ]]>
 </string>
 
+    <string name="tabla">
+        <![CDATA[
+		  <div>
+					<b>Clasificacion de la Organizacion mundial de la salud:</b>
+					<div>
+						  <tr>
+						   <td>
+						      <tr>
+						       <th>INDICE MASA CORPORAL  CLASIFICACION</th>
+						        </tr>
+						         <tr>
+						          <td>
+						           <div>16.00<br/>16.00 - 16.99<br/>17.00 - 18.49<br/>18.50 - 24.99<br/>25.00 - 29.99<br/>30.00 - 34.99<br/>35.00 - 40.00<br/>40.00</div>
+						          </td>
+						          <td>
+						           <div>Infrapeso: Delgadez Severa<br/>Infrapeso: Delgadez moderada<br/>Infrapeso: Delgadez aceptable<br/>Peso Normal<br/>Sobrepeso<br/>Obeso: Tipo I<br/>Obeso: Tipo II<br/>Obeso: Tipo III</div>
+						       </td>
+						      </tr>
+						   </td>
+						  </tr>
+					</div>
+		  </div>
+	    ]]>
+    </string>
+
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
