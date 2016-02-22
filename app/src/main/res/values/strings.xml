@@ -90,9 +90,37 @@
 	    ]]>
     </string>
 
+    <string name="formula">
+        <![CDATA[
+		  <div>
+					<b>formula:</b>
+					<div>
+						  <tr>
+						   <td>
+						      <tr>
+						       <th>FORMULA INDICE MASA CORPORAL</th>
+						        </tr>
+						         <tr>
+						          <td>
+						           <div>IMC = peso(kg)\u002faltura\u00B2(m)</div>
+						          </td>
+						      </tr>
+						   </td>
+						  </tr>
+					</div>
+		  </div>
+	    ]]>
+    </string>
+
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="calculo">C\u00C1LCULO DEL IMC:</string>
-    <string name="altura">Escribe tu ALTURA actual:</string>
+    <string name="altura">Escribe tu ALTURA en CENTIMETROS</string>
+    <string name="peso">Escribe tu PESO en KILOGRAMOS</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado:</string>
+    <string name="imc">Indice de masa comporal:</string>
+    <string name="tiene">Usted tiene:</string>
+    <string name="limpiar">Limpiar</string>
 
 </resources>

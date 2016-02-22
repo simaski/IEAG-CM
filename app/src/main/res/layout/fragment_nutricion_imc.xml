@@ -1,55 +1,207 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="end">
 
-
-    <TextView
-        android:id="@+id/tv_intro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
-        android:text="@string/tabla"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/calculo"
-        android:id="@+id/tv_calculo"
-        android:textColor="@color/colorPrimary"
-        android:textSize="21sp"
-        android:textStyle="bold"
-        android:autoText="false" />
-
-    <!-- Used for the ripple effect on touch -->
     <LinearLayout
-        android:id="@+id/area_nombre"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/espacio_norma_1">
 
-        <ImageView
-            android:id="@+id/img_cliente"
+        <TextView
+            android:id="@+id/tv_intro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:src="@drawable/email" />
+            android:textColor="@android:color/black"
+            android:text="@string/tabla"/>
 
-        <android.support.design.widget.TextInputLayout
-            android:id="@+id/til_nombre"
+        <TextView
+            android:id="@+id/tv_formula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/tv_intro"
+            android:text="@string/formula"/>
+
+        <TextView
+            android:id="@+id/tv_calculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculo"
+            android:layout_below="@id/tv_formula"
+            android:textColor="@color/colorPrimary"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:autoText="false" />
+
+
+
+        <!-- Used for the ripple effect on touch -->
+        <LinearLayout
+            android:id="@+id/linear_altura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="32dp">
+            android:layout_below="@id/tv_calculo"
+            android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/campo_nombre"
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_altura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="@string/altura"
-                android:inputType="text"
-                android:singleLine="true" />
-        </android.support.design.widget.TextInputLayout>
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <EditText
+                    android:id="@+id/et_altura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/altura"
+                    android:inputType="number"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <!-- Used for the ripple effect on touch -->
+        <LinearLayout
+            android:id="@+id/linear_peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_altura"
+            android:orientation="horizontal">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_peso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <EditText
+                    android:id="@+id/et_peso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/peso"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <!-- Bottom Bar -->
+        <LinearLayout
+            android:id="@+id/linear_boton"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/linear_peso"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_calcular"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/calcular"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado"
+            android:layout_below="@id/linear_boton"
+            android:textColor="@color/colorPrimary"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:autoText="false" />
+
+        <!-- Used for the ripple effect on touch -->
+        <LinearLayout
+            android:id="@+id/linear_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_resultado"
+            android:visibility="invisible"
+            android:orientation="horizontal">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_resultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <EditText
+                    android:id="@+id/et_resultado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/imc"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <!-- Used for the ripple effect on touch -->
+        <LinearLayout
+            android:id="@+id/linear_tiene"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_resultado"
+            android:visibility="invisible"
+            android:orientation="horizontal">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_tiene"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <EditText
+                    android:id="@+id/et_tiene"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/tiene"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <!-- Bottom Bar -->
+        <LinearLayout
+            android:id="@+id/linear_boton2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/linear_tiene"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_limpiar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:visibility="invisible"
+                android:text="@string/limpiar"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+</ScrollView>
